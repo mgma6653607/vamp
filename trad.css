@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}  
+
+body{
+    background: linear-gradient(to right blue, red);
+}
+
+
+
+.wellcome{
+    padding: 2vw;
+    width: 100%;
+    color: rgb(238, 119, 119);
+    background-color: black;
+    font-size: 3.7vw;
+    font-family: sans-serif;
+    text-align: center;
+    border-top: .2vw solid rgb(21, 24, 167);
+    border-bottom: .2vw solid rgb(11, 20, 151);
+}
+.encabezado{  
+    width: 100%;
+    padding: 2vw;
+    text-align: center;    
+    color: rgb(238, 119, 119);
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 3vw;
+    border-bottom: .2vw solid rgb(7, 7, 131);
+}
+
+
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    
+  }
+  
+  .instr{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: -3%;
+    margin-left: 5%;
+    color:rgb(0, 0, 0);
+    
+  }
+  
+  .parrafo{
+    align-content: justify;
+    font-size: 2.5vw;
+    line-height: 4vw;
+    margin-top: 15%;
+    margin-left: 12%;
+    width: 90%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    color: rgb(255, 255, 255);
+    margin-top: 17%;
+    margin-left: 8.5%;
+    
+    background-color: #4c5274;
+    width: 41vw;
+    height: 30vw;
+    border-radius: 1.5vw;
+    border: 1vw solid rgb(0, 0, 0);
+  }
+  
+  .file{
+    margin-top: 0%;
+    font-size: 2vw;
+    width: 100%;
+    height: auto;
+  }
+  
+  .mio{
+      
+   font-size: 2vw;
+    text-align: center;
+  }
+  
+  .cost{
+    font-size: 2vw;
+    text-align: center;
+    
+    
+  }
+  
+  .time{
+    font-size: 2vw;
+    text-align: center;
+  }
+  
+  .pag{
+      background-color: crimson;
+    font-size: 2vw;
+    text-align: center;
+  }
+  
+  
+  
+  .subm{
+    font-size: 2vw;
+    text-align: center;
+  
+    
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
+
+  
+.con{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	
+}  
+
+.pagar{
+    font-size: 2.5vw;
+	line-height: 4vw;
+    color: rgb(190, 189, 77);
+    margin-top: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10%;
+}
+
+#main {
+	
+	
+	width: 85%;
+	height: 20%;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	margin-left: 8%;
+	
+    margin-top: 10%;
+    margin-bottom: 18%;
+	border-radius: 10px;
+	border: 1vw solid black;
+    
+
+	background-color: #4c5274;
+}
+
+
+
+#right {
+	font-size: 1.5vw;
+	width: 50%;
+	height: 50%;
+    color: rgb(255, 255, 255);
+	margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#right form input,
+#right form select {
+	font-size: 1vw;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari and Chrome */
+	appearance:none;
+	border: none;
+	border-bottom: 1em solid rgb(163, 39, 39);	
+	padding: 0.5vw;
+	margin-top: 0.5vw;
+	position: relative;
+	
+}
+
+#right form .form-field {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-left: 15%;
+    width: 70%;
+
+    
+}
+
+#right form #date-val {
+	display: flex;
+	justify-content: center;
+
+}
+
+#right form #date-val select {
+
+	width: 30%;
+}
+
+#right form button[type="submit"] {
+	background: linear-gradient(
+								135deg,
+								primary 0%,
+								secondary 100%
+							);
+	
+	
+	
+	padding: 1vw;
+	border: none;
+	border-radius: 50px;
+	color: rgb(46, 211, 54);
+	font-weight: 4em;
+	font-size: 2vw;
+	margin-top: 1vw;
+	margin-bottom: 5%;
+	background-color: rgb(84, 38, 128);
+}
+
+#right form button[type="submit"]:hover {
+	background: transparent;
+	box-shadow: 0 0 0 3px primary;
+	color: primary;
+}
+
+.con1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+
+.sp{
+    width: 60%;
+    border-radius: 40%;
+    
+}
+
+.uk{
+    width: 60%;
+    border-radius: 40%;
+   
+}
+
+.parra{
+    margin-top: 10%;
+    color: crimson;
+    font-size: 3vw;
+    text-align: center;
+
+    
+}
+
+.cont2{
+    margin-top: 10%;
+    margin-bottom: auto;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to right, rgb(230, 208, 84),rgb(61, 82, 175));
+    
+}
+
+
+
+
+.thissite{
+    font-size: 2vw;
+    width: 70vw;
+    
+    margin-top: -6%;
+    
+}
+
+.email{
+    font-size: 2vw;
+    align-content: center;
+    margin-top: 5.5%;
+    
+}
+
+.V{
+        
+        color: rgb(110, 4, 4);
+        font-family: Courier;
+        font-size: 15vw;
+        margin-left: 64%;
+        margin-top: -13.7%;
+        
+        
+        
+        animation-name: vamp;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+        -webkit-transform-origin-x: 5vw;
+        animation-iteration-count: infinite;
+    }
+    @keyframes vamp{
+        from{transform: rotateY(0deg);}
+        to{transform: rotateY(360deg);}
+    }
+
+
+.ampi{
+    font-size: 4.3vw;
+    margin-left: 72%;
+    margin-top: -8.5%;
+    color: rgb(11, 6, 53);
+    
+    
+    
+}
+  
+.co{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+	
+    
+}  
+
+.co{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sp{
+    width: 100%;
+    height: auto;
+    border-radius: 40%;
+}
+
+.uk{
+    width: 100%;
+    height: auto;
+    border-radius: 40%;
+}
+
+.parra{
+    font-size: 2vw;
+    text-align: center;
+    
+}
